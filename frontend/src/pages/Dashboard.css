@@ -1,0 +1,158 @@
+/* frontend/src/pages/Dashboard.css */
+
+.dashboard-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 1rem;
+}
+
+.dashboard-header h1 {
+  margin: 0;
+}
+
+.logout-button {
+  background-color: #ff3b30;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #c00;
+}
+
+/* Post Creator */
+.post-creator {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.post-creator textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 0.75rem;
+  font-size: 1rem;
+  font-family: inherit;
+  margin-bottom: 1rem;
+}
+
+.post-creator button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #007aff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.post-creator button:hover {
+  background-color: #005ecb;
+}
+
+.error-message {
+  color: #ff3b30;
+  font-size: 0.9rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Post Feed */
+.post-feed {
+  margin-top: 2rem;
+}
+
+.post-feed h2 {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.5rem;
+}
+
+.post-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.post-card h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.post-card p {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+.post-card small {
+  color: #999;
+}
+
+/* --- ADD THESE STYLES --- */
+
+.post-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #f0f0f0;
+}
+
+.post-actions button {
+  background: #f0f2f5;
+  color: #333;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.post-actions button:hover {
+  background: #e4e6eb;
+}
+
+.like-button.liked {
+  background: #e7f3ff;
+  color: #007aff;
+  font-weight: bold;
+}
+
+.delete-button {
+  background: #fbebee;
+  color: #ff3b30;
+}
+
+.delete-button:hover {
+  background: #f8d7da;
+}
+
+.edit-button {
+  background: #f0f2f5;
+  color: #333;
+}
+
+.edit-button:hover {
+  background: #e4e6eb;
+}
